@@ -1,12 +1,8 @@
-let arr = ['a','b','c','d'];
+import "../styles/style.scss";
+import {validate} from "./utils/utils";
 
-// console.log("este es el index 4:", ...arr);
+console.log("index");
 
-let arrowFunction = () => {
-    // console.log("llamada a arrowFunction");
-}
-arrowFunction();
+const result = validate(  9 );
 
-import num from './test';
-
-console.log("Num desde index: ",num);
+console.log("validate desde index", result);

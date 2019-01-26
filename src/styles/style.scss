@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+    div{
+        &.especifico{
+            background-color: azure;
+        }
+    }
+}
+
+@import "other";
